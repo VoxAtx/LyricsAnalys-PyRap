@@ -44,3 +44,25 @@ class Line:
             if not wordnet.synsets(word):
                 return False
             else:
+                return True
+
+        word_dict = {'untagged': []}
+
+        for w in self.words:
+            if check_word(w):
+                word, pos = nltk.pos_tag([w])[0]
+                if pos not in word_dict.keys():
+                    word_dict[pos] = [word]
+                else:
+                    word_dict[pos].append(word)
+            else:
+                word_dict['untagged'].append(w)
+
+        for k, v in word_dict.items():
+            word_dict[k] = sorted(list(set(v)))
+
+        return word_dict
+
+    def clean_line(self):
+        '''
+        Clean string of bad characters and split to get words
