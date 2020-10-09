@@ -16,3 +16,17 @@ class Line:
         self.line = ' '.join(self.words)[1:]
         self.clean_line = self.clean_line()
         self.word_count = len(self.words)
+        self.char_count = len(self.line.replace(' ',''))
+        self.start_char = self.line[0].lower()
+        self.end_word = self.line[-1]
+        self.word_pos = self.pos()
+        self.pos_stats = ['%s: %s' % (pos, len(words)) for pos, words
+                         in self.word_pos.items()]
+        self.stats = {'Word Count': self.word_count,
+                      'Character Count': self.char_count,
+                      'Starting Letter': self.start_char,
+                      'Ending Word:': self.end_word,
+                      'POS used:': '\n'.join(self.pos_stats)}
+
+    def __str__(self):
+        return ' '.join(self.line)[1:]
