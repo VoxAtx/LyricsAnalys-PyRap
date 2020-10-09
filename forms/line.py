@@ -30,3 +30,17 @@ class Line:
 
     def __str__(self):
         return ' '.join(self.line)[1:]
+
+    def pos(self):
+        '''
+        Get POS tags for words in line
+
+        Returns
+        -------
+        word_dict: dict
+            - POS dictionary
+        '''
+        def check_word(word):
+            if not wordnet.synsets(word):
+                return False
+            else:
