@@ -66,3 +66,20 @@ class Line:
     def clean_line(self):
         '''
         Clean string of bad characters and split to get words
+        '''
+        bad_characters = ['"', '_', '(', ')', '$', ',', '.', '?', '!', '—','']
+
+        l = self.line
+        l_ = []
+
+        for char in l:
+            if char in bad_characters:
+                continue
+            else:
+                l_.append(char)
+
+        l = ''.join(l_)
+
+        l = l.split()
+
+        return l
