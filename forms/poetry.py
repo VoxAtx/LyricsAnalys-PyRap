@@ -18,3 +18,14 @@ class Haiku(Section):
             self.lines = [Line(x) for x in lines]
         self.name = name
         self.topic = topic
+        self.description = "3 lines with 5/7/5 syllable counts\n\
+                            often focusing on images from nature,\n\
+                            emphasizing simplicity, intensity, and\n\
+                            directness of expression\n"
+
+
+class Limerick(Section):
+    '''
+    5 Lines with 5/7/5 syllable counts
+    '''
+    def __init__(self, lines=[], name='', topic=''):
