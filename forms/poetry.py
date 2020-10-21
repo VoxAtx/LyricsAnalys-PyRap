@@ -45,3 +45,9 @@ class Limerick(Section):
                             3) -/--/\n\
                             4) -/--/\n\
                             5) -/--/--/\n\
+                            --------------------------------\n\
+                            Typically:\n\
+                            - the first and second lines rhyme\n\
+                            - the third and fourth lines rhyme,\n\
+                            - the fifth either repeats the first\n\
+                              line or rhymes with it"
