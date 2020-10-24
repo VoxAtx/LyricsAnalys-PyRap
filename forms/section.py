@@ -44,3 +44,20 @@ class Section:
         with open(save_p, 'w') as f:
             for l in self.lines:
                 f.write(str(l) + '\n')
+
+    def load(self, path):
+        '''
+        Load section from path
+
+        Parameters
+        -------
+        path: str
+        '''
+        with open(path, 'r') as f:
+            data = f.read()
+
+        lines = data.split()
+
+        self.lines = [Line(x) for x in lines]
+
+        return
