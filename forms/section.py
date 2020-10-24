@@ -11,3 +11,24 @@ class Section:
             - Ex: Chorus: [chorus1, chorus2]
             - chorus1: [['words', words'],
                         ['words', 'words']]
+            - chorus2: [[], [], []]
+            - chorus2: [line, line, line]
+        '''
+        self.lines = [Line(x) for x in lines]
+        self.name = name
+        self.topic = topic
+        self.line_count = len(lines)
+        self.line_word_count = [x.word_count for x in self.lines]
+
+    def __str__(self):
+        '''
+        Custom string representation
+        '''
+        sec_list = []
+
+        if not self.lines:
+            return ''
+
+        for l in self.lines:
+            join_line = ' '.join(l)[1:]
+            sec_list.append(join_line)
