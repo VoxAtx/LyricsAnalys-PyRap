@@ -32,3 +32,15 @@ class Section:
         for l in self.lines:
             join_line = ' '.join(l)[1:]
             sec_list.append(join_line)
+        s = '\n'.join(sec_list)[1:]
+
+        return s
+
+    def save(self):
+        '''
+        Save section to text file using section name as file name
+        '''
+        save_p = self.name
+        with open(save_p, 'w') as f:
+            for l in self.lines:
+                f.write(str(l) + '\n')
