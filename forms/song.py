@@ -2,4 +2,6 @@
 from section import Section
 
 
-c
+class Song:
+
+    def __in
