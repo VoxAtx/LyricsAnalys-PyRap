@@ -6,4 +6,5 @@ class Song:
 
     def __init__(self, title='', artist='', theme=''):
 
-        self.sections = {'Chorus
+        self.sections = {'Chorus': [],
+             
