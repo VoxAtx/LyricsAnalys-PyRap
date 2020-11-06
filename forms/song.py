@@ -10,4 +10,5 @@ class Song:
                          'Verse': [],
                          'Hook': [],
                          'Bridge': [],
-                         'Intro
+                         'Intro': [],
+         
