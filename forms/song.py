@@ -9,4 +9,5 @@ class Song:
         self.sections = {'Chorus': [],
                          'Verse': [],
                          'Hook': [],
-                         'Bridge'
+                         'Bridge': [],
+             
