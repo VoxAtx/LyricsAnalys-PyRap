@@ -12,4 +12,5 @@ class Song:
                          'Bridge': [],
                          'Intro': [],
                          'Outro': []}
-       
+        self.title = title
+     
