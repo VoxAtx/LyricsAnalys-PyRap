@@ -13,4 +13,4 @@ class Song:
                          'Intro': [],
                          'Outro': []}
         self.title = title
-     
+        self.artist = arti
