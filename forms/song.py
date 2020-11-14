@@ -14,4 +14,5 @@ class Song:
                          'Outro': []}
         self.title = title
         self.artist = artist
-        self.theme
+        self.theme = theme
+   
