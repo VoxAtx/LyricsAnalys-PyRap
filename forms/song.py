@@ -16,4 +16,6 @@ class Song:
         self.artist = artist
         self.theme = theme
         # list of tuples (section_name, index)
-        self.arrangement =
+        self.arrangement = []
+
+    def 
