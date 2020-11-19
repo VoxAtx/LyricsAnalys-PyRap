@@ -18,4 +18,4 @@ class Song:
         # list of tuples (section_name, index)
         self.arrangement = []
 
-    def 
+    def work_on_section(s
