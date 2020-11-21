@@ -20,4 +20,4 @@ class Song:
 
     def work_on_section(self, section):
 
-        
+        sec = se
