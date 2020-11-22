@@ -20,4 +20,6 @@ class Song:
 
     def work_on_section(self, section):
 
-        sec = self.sections[section
+        sec = self.sections[section]
+
+        if len(s
