@@ -22,4 +22,5 @@ class Song:
 
         sec = self.sections[section]
 
-        if len(s
+        if len(sec) > 1:
+     
