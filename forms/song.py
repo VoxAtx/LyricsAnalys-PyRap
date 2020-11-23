@@ -23,4 +23,4 @@ class Song:
         sec = self.sections[section]
 
         if len(sec) > 1:
-     
+            choice = 
