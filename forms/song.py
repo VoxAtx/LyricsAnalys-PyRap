@@ -23,4 +23,4 @@ class Song:
         sec = self.sections[section]
 
         if len(sec) > 1:
-            choice = input('%s sections, wh
+            choice = input('%s sections, which one?' % l
