@@ -27,4 +27,6 @@ class Song:
 
         return sec
 
-    de
+    def song(self):
+
+     
