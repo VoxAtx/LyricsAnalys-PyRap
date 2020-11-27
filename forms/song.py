@@ -25,4 +25,6 @@ class Song:
         if len(sec) > 1:
             choice = input('%s sections, which one?' % len(sec))
 
-        
+        return sec
+
+    de
