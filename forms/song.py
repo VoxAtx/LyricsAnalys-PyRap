@@ -29,4 +29,6 @@ class Song:
 
     def song(self):
 
-        son
+        song = ''
+
+     
