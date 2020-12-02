@@ -31,4 +31,5 @@ class Song:
 
         song = ''
 
-        if self.arrang
+        if self.arrangement:
+            
