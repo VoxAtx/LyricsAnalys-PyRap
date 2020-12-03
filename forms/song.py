@@ -32,4 +32,4 @@ class Song:
         song = ''
 
         if self.arrangement:
-            for arrange, index i
+            for arrange, index in self.arrangemen
