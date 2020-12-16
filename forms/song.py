@@ -33,4 +33,4 @@ class Song:
 
         if self.arrangement:
             for arrange, index in self.arrangement:
-                s = sel
+                s = self.sections[arrang
