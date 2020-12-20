@@ -34,4 +34,6 @@ class Song:
         if self.arrangement:
             for arrange, index in self.arrangement:
                 s = self.sections[arrange][index]
-                song.append(str(s)
+                song.append(str(s) + '\n')
+
+        r
