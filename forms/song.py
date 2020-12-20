@@ -38,4 +38,4 @@ class Song:
 
         return song
 
-    de
+    def section_count(s
