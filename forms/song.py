@@ -36,4 +36,6 @@ class Song:
                 s = self.sections[arrange][index]
                 song.append(str(s) + '\n')
 
-        r
+        return song
+
+    de
