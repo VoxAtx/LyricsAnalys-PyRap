@@ -38,4 +38,6 @@ class Song:
 
         return song
 
-    def section_count(s
+    def section_count(self):
+
+        
