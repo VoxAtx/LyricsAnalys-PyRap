@@ -40,4 +40,6 @@ class Song:
 
     def section_count(self):
 
+        count = 0
+
         
