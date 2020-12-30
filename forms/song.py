@@ -45,4 +45,4 @@ class Song:
         for k, v in self.sections:
             count += len(v)
 
-     
+        return v
