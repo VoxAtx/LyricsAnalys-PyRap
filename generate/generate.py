@@ -34,3 +34,15 @@ class Generate:
         n_pairs: int
             - Number of pairs to generate
         '''
+
+        if not self.pos_dict:
+            self.load_pos_words()
+
+        if not self.topic_dict:
+            self.load_topics()
+
+        if topic:
+            topic_list = self.topic_dict[topic]
+        else:
+            topic_list = []
+            for k, v in self.topic_dict.items():
