@@ -81,3 +81,17 @@ class Generate:
 
             with open(('../topics/' + f), 'r') as text:
                 topic_words = text.readlines()
+
+            topic_words = [x.replace('\n', '') for x in topic_words]
+
+            self.topic_dict[topic] = topic_words
+
+        for k, v in self.topic_dict.items():
+            self.topic_words.extend(v)
+
+    def load_pos_words(self):
+        '''
+        Method to get all tagged POS words from NLTK wordnet
+
+        Returns
+        -------
