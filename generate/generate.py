@@ -46,3 +46,20 @@ class Generate:
         else:
             topic_list = []
             for k, v in self.topic_dict.items():
+                topic_list.extend(v)
+
+        pairs = []
+
+        for i in range(0, n_pairs):
+            # Same starting letter
+            topic = random.choice(topic_list)
+            startswith = topic.lower()[0]
+            pos = random.choice(['adj', 'adv', 'verb'])
+            word_list = self.pos_dict[pos]
+
+            word_list = [x for x in word_list
+                        if x.lower().startswith(startswith)]
+            if not word_list:
+                continue
+
+            modifier = random.choice(word_list)
