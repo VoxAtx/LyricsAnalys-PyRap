@@ -63,3 +63,21 @@ class Generate:
                 continue
 
             modifier = random.choice(word_list)
+
+            pairs.append([modifier, topic])
+
+        return pairs
+
+    def load_topics(self):
+        '''
+        Get all topic words from "../topics/"
+
+        Returns
+        -------
+        Set self.topic_dict with self.topic_dict[topic] = topic_words
+        '''
+        for f in os.listdir('../topics/'):
+            topic = f.split('.')[0]
+
+            with open(('../topics/' + f), 'r') as text:
+                topic_words = text.readlines()
