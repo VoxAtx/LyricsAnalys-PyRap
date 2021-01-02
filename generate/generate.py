@@ -127,3 +127,16 @@ class Generate:
 
         Parameters
         -------
+        word: str
+            - Word to get rhymes for
+
+        Returns
+        -------
+        words: list
+            - List of rhyme words
+        '''
+        wordutil = WU()
+        words = wordutil.get_rhymes(word=word,
+                                       startswith=startswith)
+
+        return words
