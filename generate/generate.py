@@ -111,3 +111,19 @@ class Generate:
             words = []
 
             synsets = [x for x in wn.all_synsets(pos)]
+
+            for synset in synsets:
+                words.append(synset.lemmas()[0].name())
+
+            words = list(sorted(set(words)))
+            if words:
+                self.pos_dict[tag] = words
+
+        return
+
+    def get_rhymes(self, word, startswith=''):
+        '''
+        Wrapper function to WordUtil.get_rhymes
+
+        Parameters
+        -------
