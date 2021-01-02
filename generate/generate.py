@@ -95,3 +95,19 @@ class Generate:
 
         Returns
         -------
+        Set "self.word_dict"
+        '''
+        pos_map = {
+            'noun': wn.NOUN,
+            'verb': wn.VERB,
+            'adj': wn.ADJ,
+            'adv': wn.ADV
+        }
+
+        for tag, pos in pos_map.items():
+            if tag == 'noun':
+                continue
+
+            words = []
+
+            synsets = [x for x in wn.all_synsets(pos)]
