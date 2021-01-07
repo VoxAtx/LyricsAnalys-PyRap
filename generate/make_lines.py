@@ -33,3 +33,17 @@ if __name__ == '__main__':
     lines = createstuff.lines
 
     save_lines = []
+
+    for l in lines:
+
+        os.system("clear")
+
+        rand_l = random.choice(lines)
+
+        out_l = l + ' ' + random.choice(compares) + ' ' + rand_l
+
+        print(out_l, '\n', 'y/n?', '\n')
+
+        inp = input()
+
+        if inp == 'j':
