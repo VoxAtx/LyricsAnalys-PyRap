@@ -58,3 +58,9 @@ if __name__ == '__main__':
             continue
 
     save_file = 'savedlines/%s.txt' % datetime.datetime.now().strftime('%d_%m_%Y')
+
+    with open(save_file, 'w') as f:
+        for i in save_lines:
+            f.write(i + '\n')
+
+    print('\n', "saved file %s" % save_file)
