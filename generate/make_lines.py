@@ -47,3 +47,14 @@ if __name__ == '__main__':
         inp = input()
 
         if inp == 'j':
+            save_lines.append(p)
+            print('cool my dude')
+            time.sleep(0.05)
+
+        elif inp == 'q':
+            break
+
+        else:
+            continue
+
+    save_file = 'savedlines/%s.txt' % datetime.datetime.now().strftime('%d_%m_%Y')
