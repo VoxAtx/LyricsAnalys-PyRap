@@ -38,3 +38,18 @@ if __name__ == '__main__':
         os.system('clear')
         print(p, '\n', 'y/n?', '\n')
         inp = input()
+        if inp == 'j':
+            save_lines.append(p)
+            os.system('clear')
+        elif inp == 'q':
+            break
+        else:
+            continue
+
+    save_file = 'saved/%s.txt' % datetime.datetime.now().strftime('%d_%m_%Y_%H_%M_%S')
+
+    with open(save_file, 'w') as f:
+        for i in save_lines:
+            f.write(i + '\n')
+
+    os.system('clear')
