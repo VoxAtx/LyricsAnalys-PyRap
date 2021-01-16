@@ -53,3 +53,4 @@ if __name__ == '__main__':
             f.write(i + '\n')
 
     os.system('clear')
+    print('\n', "saved file %s" % save_file.split('/')[-1], '\n')
