@@ -25,3 +25,16 @@ if __name__ == '__main__':
 
     if len(sys.argv) > 1:
         n_pairs = int(sys.argv[1])
+
+    pairs = Generate().pairs(n_pairs=n_pairs)
+
+    pairs = [x[0] + ' ' + x[1] for x in pairs]
+    pairs = list(sorted(pairs))
+    pairs.sort(key=len)
+
+    save_lines = []
+
+    for p in pairs:
+        os.system('clear')
+        print(p, '\n', 'y/n?', '\n')
+        inp = input()
