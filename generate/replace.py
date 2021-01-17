@@ -26,3 +26,17 @@ class Replace:
         '''
         Get topic and words and try to replace all tagged POS in songs
         '''
+        self.r.load_rap_pos()
+
+        replace_dict = self.r.rap_pos
+        rep = self.c.replace_lyrics(self.artist, replace_dict)
+
+        for title, sections in self.c.replaced_songs.items():
+            for sec_name, lines in sections.items():
+                os.system('clear')
+                print('\n')
+                print("---------------------------%s-%s-%s--------------------------" % (self.artist, title, sec_name))
+                print('\n')
+                for sec in lines:
+                    pp(' '.join([x for x in sec if x != '']))
+                _inp = input()
