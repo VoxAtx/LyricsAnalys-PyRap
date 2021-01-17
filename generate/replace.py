@@ -40,3 +40,17 @@ class Replace:
                 for sec in lines:
                     pp(' '.join([x for x in sec if x != '']))
                 _inp = input()
+                if _inp == 'q':
+                    return
+
+    def replace_rapnouns(self):
+        '''
+        Get topic words and replace nouns in songs with topics
+        '''
+        topic_words = gen()
+        topic_words.load_topics()
+        words = topic_words.topic_words
+
+        mydict = {'NN': words}
+
+        rep = self.c.replace_lyrics(self.artist, mydict)
