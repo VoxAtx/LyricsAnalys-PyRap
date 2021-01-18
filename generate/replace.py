@@ -69,3 +69,6 @@ class Replace:
 
 
 if __name__ == '__main__':
+
+    rep = Replace()
+    rep.replace_rapnouns()
