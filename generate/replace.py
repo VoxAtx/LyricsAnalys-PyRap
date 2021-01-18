@@ -54,3 +54,18 @@ class Replace:
         mydict = {'NN': words}
 
         rep = self.c.replace_lyrics(self.artist, mydict)
+
+        for title, sections in self.c.replaced_songs.items():
+            for sec_name, lines in sections.items():
+                os.system('clear')
+                print('\n')
+                print("---------------------------%s-%s-%s--------------------------" % (self.artist, title, sec_name))
+                print('\n')
+                for sec in lines:
+                    print('\n'.join([x for x in sec if x != '']))
+                _inp = input()
+                if _inp == 'q':
+                    return
+
+
+if __name__ == '__main__':
