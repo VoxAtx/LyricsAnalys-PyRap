@@ -5,4 +5,7 @@ import settings
 
 token = 'Bearer ' + settings.access_token
 base_url = "http://api.genius.com"
-headers = {'Authorization'
+headers = {'Authorization': token}
+
+
+def ge
