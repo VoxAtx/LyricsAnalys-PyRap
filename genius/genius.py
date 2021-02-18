@@ -8,4 +8,5 @@ base_url = "http://api.genius.com"
 headers = {'Authorization': token}
 
 
-def ge
+def get_url(url):
+ 
