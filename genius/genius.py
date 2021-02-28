@@ -10,4 +10,5 @@ headers = {'Authorization': token}
 
 def get_url(url):
     '''
-    Get Lyrics for a song given the Genius W
+    Get Lyrics for a song given the Genius Web URL
+    '
