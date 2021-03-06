@@ -13,4 +13,4 @@ def get_url(url):
     Get Lyrics for a song given the Genius Web URL
     '''
     page = requests.get(url)
-    html = BS(page
+    html = BS(page.text, "html.par
