@@ -14,4 +14,4 @@ def get_url(url):
     '''
     page = requests.get(url)
     html = BS(page.text, "html.parser")
-    [h.ext
+    [h.extract() for h
