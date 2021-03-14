@@ -16,3 +16,5 @@ def get_url(url):
     html = BS(page.text, "html.parser")
     [h.extract() for h in html('script')]
     lyrics = html.find('div', class_='lyrics').get_text()
+
+    return lyri
