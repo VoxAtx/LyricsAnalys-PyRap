@@ -20,4 +20,4 @@ def get_url(url):
     return lyrics
 
 
-def s
+def sort_lyrics(lyric
