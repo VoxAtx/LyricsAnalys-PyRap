@@ -22,4 +22,5 @@ def get_url(url):
 
 def sort_lyrics(lyrics):
     '''
-    Sort Lyrics into diff
+    Sort Lyrics into different sections
+    '
