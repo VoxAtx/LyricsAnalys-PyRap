@@ -26,3 +26,4 @@ def sort_lyrics(lyrics):
     '''
     lines = lyrics.splitlines()
     sections = {}
+    sec_ind =
