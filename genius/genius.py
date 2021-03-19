@@ -24,4 +24,5 @@ def sort_lyrics(lyrics):
     '''
     Sort Lyrics into different sections
     '''
-    lines = lyrics.splitlines
+    lines = lyrics.splitlines()
+    sections = {}
