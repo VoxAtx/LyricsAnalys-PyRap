@@ -28,4 +28,6 @@ def sort_lyrics(lyrics):
     sections = {}
     sec_ind = []
 
-    for i in range(0, len(li
+    for i in range(0, len(lines)):
+
+        li
