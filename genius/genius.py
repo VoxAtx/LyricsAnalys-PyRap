@@ -30,4 +30,6 @@ def sort_lyrics(lyrics):
 
     for i in range(0, len(lines)):
 
-        line = lines
+        line = lines[i]
+
+      
