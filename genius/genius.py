@@ -32,4 +32,5 @@ def sort_lyrics(lyrics):
 
         line = lines[i]
 
-        if ']' in line and '[' in lin
+        if ']' in line and '[' in line:
+            
