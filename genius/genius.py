@@ -34,4 +34,4 @@ def sort_lyrics(lyrics):
 
         if ']' in line and '[' in line:
             s_ind = i
-            sec
+            sec_ind.append(s_
