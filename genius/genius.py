@@ -38,4 +38,4 @@ def sort_lyrics(lyrics):
 
     sec_ind = sorted(sec_ind)
 
-    for i in 
+    for i in range(0, len(sec
