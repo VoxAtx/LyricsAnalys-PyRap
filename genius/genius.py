@@ -36,4 +36,4 @@ def sort_lyrics(lyrics):
             s_ind = i
             sec_ind.append(s_ind)
 
-    sec_
+    sec_ind = sorted(s
