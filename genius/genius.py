@@ -41,4 +41,4 @@ def sort_lyrics(lyrics):
     for i in range(0, len(sec_ind)-1):
 
         ind = sec_ind[i]
-        line 
+        line = lines[ind]
