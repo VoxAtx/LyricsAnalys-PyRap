@@ -43,4 +43,6 @@ def sort_lyrics(lyrics):
         ind = sec_ind[i]
         line = lines[ind]
 
-        sec = line.replace('[', '').replace(']', '').lower(
+        sec = line.replace('[', '').replace(']', '').lower()
+
+        sec_line
