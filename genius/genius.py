@@ -48,4 +48,6 @@ def sort_lyrics(lyrics):
         sec_lines = lines[ind + 1:sec_ind[i+1]]
         sec_lines = [x for x in sec_lines if x != '']
 
-        sections[sec] =
+        sections[sec] = sec_lines
+
+    
