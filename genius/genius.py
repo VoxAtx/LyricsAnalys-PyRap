@@ -54,4 +54,5 @@ def sort_lyrics(lyrics):
 
 
 def get_lyrics(url):
-    '
+    '''
+    Print L
