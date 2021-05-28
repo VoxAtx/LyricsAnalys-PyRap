@@ -50,4 +50,7 @@ def sort_lyrics(lyrics):
 
         sections[sec] = sec_lines
 
-    return sectio
+    return sections
+
+
+def get_lyrics
