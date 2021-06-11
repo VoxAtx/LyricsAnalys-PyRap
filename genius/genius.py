@@ -58,4 +58,6 @@ def get_lyrics(url):
     Print Lyrics from genius page URL
     '''
     lyrics = get_url(url)
-    sorted_lyrics = sort_lyri
+    sorted_lyrics = sort_lyrics(lyrics)
+
+    r
