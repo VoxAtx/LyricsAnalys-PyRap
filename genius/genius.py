@@ -60,4 +60,4 @@ def get_lyrics(url):
     lyrics = get_url(url)
     sorted_lyrics = sort_lyrics(lyrics)
 
-    r
+    return sorted_lyrics
