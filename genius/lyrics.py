@@ -31,3 +31,20 @@ class Lyrics:
 
     def clean_title(self, title):
         return re.sub(r'[^\x00-\x7F]+', ' ', title)
+
+    def get_artist_songs(self, artist):
+        '''
+        Get the organized lyrics for all of an artist's songs
+
+        Parameters
+        -------
+        artist: str
+
+        Returns
+        -------
+        songs: dict
+            - Dict of organized lyrics by song title
+        '''
+        lyric_p = [self.lyrics_path + x for x in
+                   os.listdir(self.lyrics_path)
+                   if x.replace('.pickle', '').replace('_', ' ') == artist][0]
