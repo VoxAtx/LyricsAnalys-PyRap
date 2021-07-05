@@ -62,3 +62,21 @@ class Lyrics:
         return songs
 
     def get_lyrics(self, song_lyrics):
+        '''
+        Convert string of lyrics into Verses, Choruses, Hooks, and Bridges
+
+        Parameters
+        -------
+        song_lyrics: str
+            - Giant string of lyrics for one song
+
+        Returns
+        -------
+        organized_lyrics: dict
+            - Dict of lyrics by Verse, Chorus, Hook, and Bridge
+            - Each section (dict key) can have multiple sections
+                - Ex: multiple verses, multiple choruses
+        '''
+        verse_lines = []
+        chorus_lines = []
+        hook_lines = []
