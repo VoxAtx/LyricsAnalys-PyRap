@@ -48,3 +48,17 @@ class Lyrics:
         lyric_p = [self.lyrics_path + x for x in
                    os.listdir(self.lyrics_path)
                    if x.replace('.pickle', '').replace('_', ' ') == artist][0]
+
+        with open(lyric_p, 'rb') as f:
+            song_dict = pickle.load(f)
+
+        songs = {}
+
+        for title, lyrics in song_dict.items():
+            organized_lyrics = self.get_lyrics(lyrics)
+            title = self.clean_title(title)
+            songs[title] = organized_lyrics
+
+        return songs
+
+    def get_lyrics(self, song_lyrics):
