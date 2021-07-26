@@ -100,3 +100,21 @@ class Lyrics:
                             section_lines.append(lines[count])
                         count += 1
                     else:
+                        done = True
+                verse_lines.append(section_lines)
+
+            elif '[' in line and 'chorus' in line:
+                section_lines = []
+                count = l + 1
+                done = False
+                while count < len(lines) and not done:
+                    if '[' not in lines[count]:
+                        if lines[count] != '':
+                            section_lines.append(lines[count])
+                        count += 1
+                    else:
+                        done = True
+                chorus_lines.append(section_lines)
+
+            elif '[' in line and 'hook' in line:
+                section_lines = []
