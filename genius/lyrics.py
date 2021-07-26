@@ -164,3 +164,15 @@ class ConvertLyrics:
                 response = view_func(request, *args, **kwargs)
 
                 return response
+
+            return wraps(view_func)(_decorator)
+
+    def convert_artist(self, artist, save=False):
+        songs = self.lyrics.get_artist_songs(artist)
+        organized_songs = {}
+
+        for title, unclean_song_sections in songs.items():
+            song_sections = {}
+            for section, lines in unclean_song_sections.items():
+                if lines:
+                    song_sections[section] = lines
