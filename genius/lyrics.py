@@ -176,3 +176,30 @@ class ConvertLyrics:
             for section, lines in unclean_song_sections.items():
                 if lines:
                     song_sections[section] = lines
+
+            organized_songs[title] = song_sections
+
+        if save:
+            save_p = 'organized_lyrics/%s_organized.pickle' % artist
+            with open(save_p, 'wb') as f:
+                pickle.dump(organized_songs, f)
+
+        self.organized_songs = organized_songs
+
+        return organized_songs
+
+    def pos(self, artist, save=False):
+        '''
+        Get words by pos used in songs
+
+        Parameters
+        -------
+        artist: str
+            - Artist name to get lyrics for
+        '''
+        songs = self.lyrics.get_artist_songs(artist)
+
+        pos_dict = {}
+
+        for title, unclean_song_sections in songs.items():
+            for section, lines in unclean_song_sections.items():
