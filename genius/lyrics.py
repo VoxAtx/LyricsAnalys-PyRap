@@ -134,3 +134,17 @@ class Lyrics:
                 count = l + 1
                 done = False
                 while count < len(lines) and not done:
+                    if '[' not in lines[count]:
+                        if lines[count] != '':
+                            section_lines.append(lines[count])
+                        count += 1
+                    else:
+                            done = True
+                bridge_lines.append(section_lines)
+
+        organized_lyrics = {'Verse': verse_lines,
+                            'Chorus': chorus_lines,
+                            'Hook': hook_lines,
+                            'Bridge': bridge_lines}
+
+        return organized_lyrics
