@@ -118,3 +118,19 @@ class Lyrics:
 
             elif '[' in line and 'hook' in line:
                 section_lines = []
+                count = l + 1
+                done = False
+                while count < len(lines) and not done:
+                    if '[' not in lines[count]:
+                        if lines[count] != '':
+                            section_lines.append(lines[count])
+                        count += 1
+                    else:
+                        done = True
+                hook_lines.append(section_lines)
+
+            elif '[' in lines and 'bridge' in line:
+                section_lines = []
+                count = l + 1
+                done = False
+                while count < len(lines) and not done:
