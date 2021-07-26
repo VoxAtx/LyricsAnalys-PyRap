@@ -148,3 +148,19 @@ class Lyrics:
                             'Bridge': bridge_lines}
 
         return organized_lyrics
+
+
+class ConvertLyrics:
+    '''
+    Class for Handling Lyrics
+    '''
+    def __init__(self):
+        self.lyrics = Lyrics()
+        self.organized_songs = None
+
+    def _print(type):
+        def _my_decorator(view_func):
+            def _decorator(request, *args, **kwargs):
+                response = view_func(request, *args, **kwargs)
+
+                return response
