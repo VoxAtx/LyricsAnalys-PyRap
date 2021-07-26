@@ -80,3 +80,23 @@ class Lyrics:
         verse_lines = []
         chorus_lines = []
         hook_lines = []
+        bridge_lines = []
+
+        lines = song_lyrics.splitlines()
+
+        for l in range(len(lines)):
+            line = lines[l].lower()
+
+            if line == '\n':
+                continue
+
+            if '[' in line and 'verse' in line:
+                section_lines = []
+                count = l + 1
+                done = False
+                while count < len(lines) and not done:
+                    if '[' not in lines[count]:
+                        if lines[count] != '':
+                            section_lines.append(lines[count])
+                        count += 1
+                    else:
