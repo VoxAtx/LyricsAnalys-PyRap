@@ -203,3 +203,16 @@ class ConvertLyrics:
 
         for title, unclean_song_sections in songs.items():
             for section, lines in unclean_song_sections.items():
+                for sub_section in lines:
+                    for w in sub_section:
+                        if self.check_pos(w):
+                            pos = self.get_pos(w)
+                            if pos not in list(pos_dict.keys()):
+                                pos_dict[pos] = [w]
+                            else:
+                                pos_dict[pos].append(w)
+
+        if save:
+            save_p = 'rapwordlists/%s.pickle' % artist
+            with open(save_p, 'wb') as f:
+                pickle.dump(pos_dict, f)
