@@ -245,3 +245,20 @@ class ConvertLyrics:
         word, pos = nltk.pos_tag([w])[0]
 
         return pos
+    
+    def replace_lyrics(self, artist, mydict, save=False):
+        '''
+        Replace words by pos used in songs
+
+        Parameters
+        -------
+        artist: str
+            - Artist name to get lyrics for
+        '''
+        songs = self.lyrics.get_artist_songs(artist)
+
+        replaced_songs = {}
+
+        for title, unclean_song_sections in songs.items():
+            new_sections = {}
+            for section, sub_section in unclean_song_sections.items():
