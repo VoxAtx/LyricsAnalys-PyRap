@@ -306,3 +306,5 @@ class ConvertLyrics:
                 pickle.dump(replaced_songs, f)
 
         self.replaced_songs = replaced_songs
+
+        return
