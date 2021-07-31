@@ -216,3 +216,19 @@ class ConvertLyrics:
             save_p = 'rapwordlists/%s.pickle' % artist
             with open(save_p, 'wb') as f:
                 pickle.dump(pos_dict, f)
+
+        self.rap_pos = pos_dict
+
+        return
+
+    def check_pos(self, w):
+        '''
+        Check if word is in POS synset
+
+        Parameters
+        -------
+        w: str
+        '''
+        if not wordnet.synsets(w):
+            return False
+        else:
