@@ -232,3 +232,16 @@ class ConvertLyrics:
         if not wordnet.synsets(w):
             return False
         else:
+            return True
+
+    def get_pos(self, w):
+        '''
+        Get POS of a word
+
+        Parameters
+        -------
+        w: str
+        '''
+        word, pos = nltk.pos_tag([w])[0]
+
+        return pos
