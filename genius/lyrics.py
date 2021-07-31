@@ -272,3 +272,20 @@ class ConvertLyrics:
                                 pos = self.get_pos(w)
                                 if pos in mydict.keys(): 
                                     if mydict[pos]:
+                                        startswith = w.lower()[0]
+                                        words = mydict[pos]
+                                        sim_words = [x for x in words if x.startswith(startswith)]
+                                        if sim_words:
+                                            words = sim_words
+                                        rand_ind = random.randrange(0, len(words))
+                                        new_word = words[rand_ind].lower()
+                                        new_word = '(%s) %s' % (pos,new_word)
+                                        new_line.append(new_word)
+                                    else:
+                                        new_line.append(w)
+                                else:
+                                    new_line.append(w)
+                            else:
+                                new_line.append(w)
+
+                        new_line = ' '.join(new_line)
