@@ -262,3 +262,13 @@ class ConvertLyrics:
         for title, unclean_song_sections in songs.items():
             new_sections = {}
             for section, sub_section in unclean_song_sections.items():
+                for lines in sub_section:
+                    new_lines = []
+                    for line in lines:
+                        new_line = []
+                        line = line.split()
+                        for w in line:
+                            if self.check_pos(w):
+                                pos = self.get_pos(w)
+                                if pos in mydict.keys(): 
+                                    if mydict[pos]:
