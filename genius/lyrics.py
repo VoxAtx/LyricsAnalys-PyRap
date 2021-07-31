@@ -289,3 +289,20 @@ class ConvertLyrics:
                                 new_line.append(w)
 
                         new_line = ' '.join(new_line)
+
+                        if new_line != '':
+                            new_lines.append(new_line)
+
+                    if section not in new_sections.keys():
+                        new_sections[section] = [new_lines]
+                    else:
+                        new_sections[section].append(new_lines)
+
+            replaced_songs[title] = new_sections
+
+        if save:
+            save_p = 'replaced/%s_replaced.pickle' % artist
+            with open(save_p, 'wb') as f:
+                pickle.dump(replaced_songs, f)
+
+        self.replaced_songs = replaced_songs
