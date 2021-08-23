@@ -4,3 +4,21 @@ access
 algorithm
 alias
 Amazon
+append
+argument
+arithmetic
+array
+artificial
+artificial intelligence
+assemble
+assign
+asterisk
+at
+atomic
+attach
+attribute
+auxiliary
+backward
+base
+bash
+behavior
