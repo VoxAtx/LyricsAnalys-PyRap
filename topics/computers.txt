@@ -32,3 +32,12 @@ break
 broker
 bucket
 buffer
+build
+byte
+C++
+cache
+call
+capacity
+caps lock
+case
+character
