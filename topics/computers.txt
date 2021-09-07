@@ -41,3 +41,15 @@ capacity
 caps lock
 case
 character
+chat
+class
+clear
+combination
+command
+commit
+compare
+compile
+complex
+component
+condition
+connection
