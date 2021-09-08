@@ -67,3 +67,16 @@ CPU
 CSV
 database
 declare
+define
+delete
+dependency
+deploy
+derived
+destructor
+development
+difference
+document
+documentation
+double
+download
+dynamic
