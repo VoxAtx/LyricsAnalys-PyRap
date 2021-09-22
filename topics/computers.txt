@@ -131,3 +131,14 @@ include
 index
 indice
 inheritance
+initialize
+in memory
+input
+insert
+install
+instantiate
+int
+integer
+interface
+internet
+interpret
