@@ -142,3 +142,13 @@ integer
 interface
 internet
 interpret
+interrupt
+invalid
+iterate
+JavaScript
+JSON
+kernel
+key
+kill
+language
+library
