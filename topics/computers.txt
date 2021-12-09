@@ -199,3 +199,17 @@ path
 PC
 permission
 permutation
+peta
+plus
+pointer
+pop
+power supply
+precision
+priority
+private
+process
+profile
+prompt
+public
+pull
+push
