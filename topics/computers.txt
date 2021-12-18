@@ -268,3 +268,16 @@ switch
 syntax
 tab
 tag
+template
+tera
+terminal
+terminate
+text
+thread
+trace
+transmit
+true
+tunnel
+type
+Ubuntu
+undefined
