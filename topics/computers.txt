@@ -290,3 +290,16 @@ utility
 validate
 value
 variable
+vector
+virus
+void
+web
+website
+while
+width
+wifi
+Windows
+words per minute
+write
+beset binary
+corrupt
