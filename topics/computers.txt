@@ -322,3 +322,18 @@ subscribe
 mine
 bitcoin
 caps lock
+uppercase
+lowercase
+query
+hack
+exploit
+lol
+ID
+package
+container
+deploy
+primary partition
+troll
+HEAD
+origin
+master
