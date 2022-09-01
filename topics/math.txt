@@ -61,3 +61,16 @@ Gaussian
 generate
 geometry
 Godel
+golden ratio
+graph
+Greek
+group
+hypothesis
+identity
+incompleteness
+information
+inner
+integer
+interval
+inverse
+Isaac Newton
