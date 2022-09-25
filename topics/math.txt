@@ -150,3 +150,13 @@ true
 truth
 value
 vector
+zero
+distribute
+facts
+interference
+hierglyphic
+Laplace
+probable
+polygon
+polynomial
+octogon
