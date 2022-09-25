@@ -140,3 +140,13 @@ symbolic
 symmetry
 system
 technique
+tensor
+theory
+TI-89
+transform
+triangle
+triangulate
+true
+truth
+value
+vector
