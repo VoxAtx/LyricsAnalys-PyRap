@@ -160,3 +160,7 @@ probable
 polygon
 polynomial
 octogon
+circle
+cone
+cube
+rectangle
