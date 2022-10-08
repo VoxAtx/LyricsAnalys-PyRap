@@ -1,3 +1,4 @@
 absorption
 alpha particles
-an
+analytical
+beta 
