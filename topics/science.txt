@@ -2,4 +2,6 @@ absorption
 alpha particles
 analytical
 beta particles
-bo
+boundary
+chaos
+decisi
