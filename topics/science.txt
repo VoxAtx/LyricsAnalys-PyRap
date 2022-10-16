@@ -4,4 +4,6 @@ analytical
 beta particles
 boundary
 chaos
-decisi
+decision
+dimensions
+dyna
