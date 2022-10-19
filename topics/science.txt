@@ -6,4 +6,6 @@ boundary
 chaos
 decision
 dimensions
-dyna
+dynamics
+elements
+empir
