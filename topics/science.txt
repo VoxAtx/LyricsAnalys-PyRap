@@ -8,4 +8,6 @@ decision
 dimensions
 dynamics
 elements
-empir
+empirical
+Euclid
+fallin
