@@ -11,4 +11,6 @@ elements
 empirical
 Euclid
 falling body
-Fibona
+Fibonacci
+gamma ray
+gra
