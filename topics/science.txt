@@ -13,4 +13,6 @@ Euclid
 falling body
 Fibonacci
 gamma ray
-gra
+gravity
+interval
+Leonardo da
