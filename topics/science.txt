@@ -19,3 +19,5 @@ Leonardo da Vinci
 logic
 observation
 order
+physics
+rea
