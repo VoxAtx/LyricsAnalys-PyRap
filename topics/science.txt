@@ -15,4 +15,6 @@ Fibonacci
 gamma ray
 gravity
 interval
-Leonardo da
+Leonardo da Vinci
+logic
+o
