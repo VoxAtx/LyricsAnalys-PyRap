@@ -22,4 +22,5 @@ order
 physics
 reason
 scale
-sci
+scientific method
+sp
