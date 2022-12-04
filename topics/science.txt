@@ -20,4 +20,6 @@ logic
 observation
 order
 physics
-rea
+reason
+scale
+sci
