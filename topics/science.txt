@@ -23,4 +23,6 @@ physics
 reason
 scale
 scientific method
-specialized knowle
+specialized knowledge
+spectrum
+stimu
