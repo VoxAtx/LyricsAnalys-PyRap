@@ -23,4 +23,4 @@ physics
 reason
 scale
 scientific method
-sp
+specialized knowle
