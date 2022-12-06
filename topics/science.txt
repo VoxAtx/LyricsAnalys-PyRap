@@ -25,4 +25,5 @@ scale
 scientific method
 specialized knowledge
 spectrum
-stimu
+stimulus
+theoretical
