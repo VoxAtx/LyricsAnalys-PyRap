@@ -29,4 +29,6 @@ stimulus
 theoretical
 vibration
 volcano
-X
+X-Ray
+radio
+hypo
