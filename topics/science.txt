@@ -34,3 +34,6 @@ radio
 hypothesize
 nonlinear frequency
 syndrome
+speed
+velocity
+ac
