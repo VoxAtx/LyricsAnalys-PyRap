@@ -32,4 +32,5 @@ volcano
 X-Ray
 radio
 hypothesize
-nonlinear frequen
+nonlinear frequency
+syndrome
