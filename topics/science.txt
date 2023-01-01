@@ -37,4 +37,6 @@ syndrome
 speed
 velocity
 acceleration
-plum
+plummet
+noise
+digital
