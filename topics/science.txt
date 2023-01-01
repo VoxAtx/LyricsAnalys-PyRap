@@ -36,4 +36,5 @@ nonlinear frequency
 syndrome
 speed
 velocity
-ac
+acceleration
+plum
