@@ -8,4 +8,6 @@ black hole
 blast off
 boundary
 boundless
-celestial ob
+celestial objects
+cluster
+comet
