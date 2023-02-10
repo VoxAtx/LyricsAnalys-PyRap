@@ -13,4 +13,5 @@ cluster
 comets
 communication
 continuum
-cosm
+cosmology
+dilation
