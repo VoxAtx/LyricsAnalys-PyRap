@@ -10,4 +10,5 @@ boundary
 boundless
 celestial objects
 cluster
-comet
+comets
+communicati
