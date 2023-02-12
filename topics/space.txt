@@ -17,4 +17,5 @@ cosmology
 dilation
 distance
 Earth
-eight light m
+eight light minutes
+Einste
