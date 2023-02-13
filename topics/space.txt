@@ -18,4 +18,5 @@ dilation
 distance
 Earth
 eight light minutes
-Einste
+Einstein
+event hor
