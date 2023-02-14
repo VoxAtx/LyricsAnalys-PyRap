@@ -23,4 +23,5 @@ event horizon
 finite
 fluorescence
 free fall
-fro
+frontier
+Galactic
