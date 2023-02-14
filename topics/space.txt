@@ -19,4 +19,6 @@ distance
 Earth
 eight light minutes
 Einstein
-event hor
+event horizon
+finite
+fluore
