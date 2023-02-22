@@ -27,4 +27,6 @@ frontier
 Galactic
 galaxy
 Galileo
-g fo
+g force
+gravity
+infinite
