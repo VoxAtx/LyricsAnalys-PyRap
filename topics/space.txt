@@ -35,4 +35,5 @@ launch
 light years
 Mars
 Mercury
-Milky
+Milky Way
+moon
