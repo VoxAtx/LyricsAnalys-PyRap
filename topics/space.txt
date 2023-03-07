@@ -33,4 +33,6 @@ infinite
 Kepler
 launch
 light years
-M
+Mars
+Mercury
+Milky
