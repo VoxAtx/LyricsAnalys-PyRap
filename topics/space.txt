@@ -39,4 +39,6 @@ Milky Way
 moon
 nebula
 Neptune
-neu
+neutron
+orbit
+o
