@@ -41,4 +41,5 @@ nebula
 Neptune
 neutron
 orbit
-o
+origin
+plane
