@@ -51,4 +51,5 @@ relativity
 rick and morty
 rocket
 rotation
-s
+satellite
+Saturn
