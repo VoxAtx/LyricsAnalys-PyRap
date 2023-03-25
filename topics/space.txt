@@ -48,4 +48,7 @@ Pluto
 portal
 radiation
 relativity
-rick and 
+rick and morty
+rocket
+rotation
+s
