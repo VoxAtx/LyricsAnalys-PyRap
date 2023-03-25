@@ -47,4 +47,5 @@ planetary
 Pluto
 portal
 radiation
-rel
+relativity
+rick and 
