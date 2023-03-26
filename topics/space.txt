@@ -54,4 +54,5 @@ rotation
 satellite
 Saturn
 solar system
-spa
+spacetime
+spectrum
