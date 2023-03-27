@@ -56,3 +56,6 @@ Saturn
 solar system
 spacetime
 spectrum
+stars
+sun
+sun
