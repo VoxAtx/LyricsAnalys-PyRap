@@ -60,4 +60,5 @@ stars
 sun
 sunspot
 supermassive
-t
+telescope
+the nig
