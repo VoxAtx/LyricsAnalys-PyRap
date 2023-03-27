@@ -58,4 +58,6 @@ spacetime
 spectrum
 stars
 sun
-sun
+sunspot
+supermassive
+t
