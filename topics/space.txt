@@ -64,4 +64,5 @@ telescope
 the night sky
 time
 transient event
-uninh
+uninhabitable
+u
