@@ -66,4 +66,6 @@ time
 transient event
 uninhabitable
 universe
-Uranu
+Uranus
+Venus
+wormho
