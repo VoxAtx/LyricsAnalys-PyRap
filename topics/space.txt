@@ -65,4 +65,5 @@ the night sky
 time
 transient event
 uninhabitable
-u
+universe
+Uranu
