@@ -68,4 +68,6 @@ uninhabitable
 universe
 Uranus
 Venus
-wormho
+wormhole
+I see stars
+to inf
