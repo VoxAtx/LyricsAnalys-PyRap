@@ -1,2 +1,3 @@
 * Types of Words
-** Objects (N
+** Objects (Noun)
+** Modifie
