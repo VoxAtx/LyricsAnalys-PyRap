@@ -1,3 +1,4 @@
 * Types of Words
 ** Objects (Noun)
-** Modifiers (Adjectives/Adv
+** Modifiers (Adjectives/Adverbs)
+** Functions (
