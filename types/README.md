@@ -1,3 +1,3 @@
 * Types of Words
 ** Objects (Noun)
-** Modifie
+** Modifiers (Adjectives/Adv
