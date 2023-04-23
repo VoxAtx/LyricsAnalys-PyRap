@@ -3,4 +3,4 @@
 ** words that express action or state of being
 ** three types:
 *** action
-**** words that express a
+**** words that express action (give, eat, w
