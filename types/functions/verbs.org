@@ -4,3 +4,4 @@
 ** three types:
 *** action
 **** words that express action (give, eat, walk, etc.) or
+     possessio
