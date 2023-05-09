@@ -7,4 +7,5 @@
      possession (have, own, etc.)
 **** action verbs can either be:
 ***** transitive
-****** always has a noun that receives the action of the 
+****** always has a noun that receives the action of the verb,
+  
