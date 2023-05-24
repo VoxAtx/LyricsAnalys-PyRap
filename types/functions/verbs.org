@@ -9,4 +9,5 @@
 ***** transitive
 ****** always has a noun that receives the action of the verb,
        called the *direct object*
-******* "Laurissa *raises* her h
+******* "Laurissa *raises* her hand"
+*****
