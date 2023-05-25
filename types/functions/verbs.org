@@ -10,4 +10,4 @@
 ****** always has a noun that receives the action of the verb,
        called the *direct object*
 ******* "Laurissa *raises* her hand"
-******* verb: "raises", direct object: "her hand",
+******* verb: "raises", direct object: "her hand", transitive ve
