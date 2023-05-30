@@ -11,4 +11,4 @@
        called the *direct object*
 ******* "Laurissa *raises* her hand"
 ******* verb: "raises", direct object: "her hand", transitive verb: "raises"
-****
+***** intransi
