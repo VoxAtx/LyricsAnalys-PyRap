@@ -7,3 +7,22 @@
 *** Descriptive
 **** use different "degrees" of adjectives based on how many
     things are being compared
+**** types:
+***** positive
+****** normal adjective that's used to describe, not compare
+***** comparative
+****** used to compare two things (and is often followed by
+      the word "than")
+***** superlative
+****** used t compare three or more things or to state that
+      something is the most
+**** if a descriptive adjective has one or two syllables, can
+    be transformed into its comparative and superlative form
+    by adding -er and -est endings
+**** if a descriptive adjective has three or more syllables, use
+    more and most before it to transform it into the comparative
+    and superlative
+*** Quantitative
+**** answers the questions "how much?" or "how many?"
+**** describe the quantity of something
+**** usually numeric
