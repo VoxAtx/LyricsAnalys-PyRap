@@ -43,3 +43,15 @@
 ***** My
 ***** His
 ***** Her
+***** Their
+***** Your
+***** Our
+**** all these adjectives except the word "his" can only
+     be used before a noun
+**** if you want to leave off the noun or pronoun being
+     modified, use these possessive adjectives instead:
+***** Mine
+***** His
+***** Hers
+***** Theirs
+***** Yours
