@@ -26,3 +26,20 @@
 **** answers the questions "how much?" or "how many?"
 **** describe the quantity of something
 **** usually numeric
+*** Demonstrative
+**** describes "which" noun or pronoun you're referring
+     to
+**** include the words:
+***** this
+***** that
+***** these
+***** those
+**** demonstrative adjectives always come before the word
+     they're modifying
+*** Possessive
+**** posessive adjectives show possession, they describe
+     to whom a thing belongs
+**** common adjectives:
+***** My
+***** His
+***** Her
