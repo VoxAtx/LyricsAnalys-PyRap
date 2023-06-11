@@ -55,3 +55,21 @@
 ***** Hers
 ***** Theirs
 ***** Yours
+***** Ours
+*** Interrogative
+**** interrogative adjectives interrogate, meaning that
+     they ask a question
+**** these are always followed by a noun or a pronoun and
+     are used to form questions
+**** examples:
+***** Which
+****** asks to make a choice between options
+***** What
+****** asks to make a choice (in general)
+***** Whose
+****** asks who something belongs to
+**** other question words, like "who" or "how" aren't adjectives
+     since they don't modify nouns
+**** which, what, and whose are only considered adjectives if they
+     are followed immediately by a noun
+***** "Which color is your favorite?" (ADJ) vs "Which is your fav color?"
