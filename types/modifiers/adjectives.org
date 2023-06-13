@@ -86,3 +86,18 @@
 ***** Either
 ****** one between a choice of two
 ***** Neither
+****** not one or the other between a choice of two
+***** Any
+****** one or some things out of any number of choices, this is
+       also used when the choice is irrelevant like "I'll take
+       any of them"
+*** Articles
+**** only three articles in English, many languages don't have them
+***** A
+****** a singular, general item
+***** An
+****** a singular, general item, use this before words that start with
+       a vowel
+***** The
+****** a singular or plural, specific item
+**** use "a" and "an" to talk about something general, use "the"
