@@ -1,1 +1,3 @@
-#! /u
+#! /usr/bin/env python
+
+cl
