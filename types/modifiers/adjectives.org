@@ -101,3 +101,9 @@
 ***** The
 ****** a singular or plural, specific item
 **** use "a" and "an" to talk about something general, use "the"
+     when talking about something specific
+**** try to use a demonstrative adjective before the noun, it it makes
+     sense use the word "the", if it changes the meaning of the phrase
+     use "a" or "an"
+***** "I don't understand *this* question"
+***** "I don't understand *the* question"
