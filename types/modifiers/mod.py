@@ -2,4 +2,5 @@
 
 class Mod:
     '''
-    Class for Mod or modifiers (adje
+    Class for Mod or modifiers (adjectives)
+    that alter ob
