@@ -2,4 +2,4 @@
 
 class Mod:
     '''
-    Class for Mod 
+    Class for Mod or modifiers (adje
