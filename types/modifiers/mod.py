@@ -5,4 +5,5 @@ class Mod:
     Class for Mod or modifiers (adjectives)
     that alter object attributes
     '''
-    def __
+    def __init__(self):
+ 
