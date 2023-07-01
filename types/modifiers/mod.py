@@ -6,4 +6,5 @@ class Mod:
     that alter object attributes
     '''
     def __init__(self):
-        self.property = Non
+        self.property = None
+        self
