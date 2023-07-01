@@ -7,4 +7,4 @@ class Mod:
     '''
     def __init__(self):
         self.property = None
-        self
+        self.property = None
