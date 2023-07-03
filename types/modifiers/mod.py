@@ -8,4 +8,6 @@ class Mod:
     def __init__(self):
         self.property = None
         self.property = None
-        self.property = Non
+        self.property = None
+
+    def metho
