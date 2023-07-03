@@ -8,3 +8,4 @@ class Mod:
     def __init__(self):
         self.property = None
         self.property = None
+        self.prop
