@@ -12,4 +12,6 @@ class Mod:
 
     def method1(self):
 
-    
+        return
+
+   
