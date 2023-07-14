@@ -14,4 +14,6 @@ class Mod:
 
         return
 
-    def meth
+    def method2(self):
+
+        r
