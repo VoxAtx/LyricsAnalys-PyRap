@@ -20,4 +20,4 @@ class Mod:
 
     def method3(self):
 
-   
+        return
