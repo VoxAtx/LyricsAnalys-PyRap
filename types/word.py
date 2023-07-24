@@ -3,4 +3,4 @@
 
 class Word:
     '''
-    
+    Class to manage 
