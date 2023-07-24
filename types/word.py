@@ -1,4 +1,6 @@
 #! /usr/bin/env python
 
 
-c
+class Word:
+    '''
+    
