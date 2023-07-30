@@ -3,4 +3,4 @@
 
 class Word:
     '''
-    Class to manage 
+    Class to manage base Word obje
