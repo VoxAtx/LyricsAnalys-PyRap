@@ -6,4 +6,5 @@ class Word:
     Class to manage base Word objects
     '''
 
- 
+    def __init__(self):
+   
