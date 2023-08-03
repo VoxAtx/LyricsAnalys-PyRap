@@ -3,4 +3,7 @@
 
 class Word:
     '''
-    Class to manage base Word obje
+    Class to manage base Word objects
+    '''
+
+ 
