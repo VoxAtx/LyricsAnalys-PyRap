@@ -7,4 +7,5 @@ class Word:
     '''
 
     def __init__(self):
-        self.property 
+        self.property = None
+        
