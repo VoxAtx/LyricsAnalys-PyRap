@@ -8,4 +8,5 @@ class Word:
 
     def __init__(self):
         self.property = None
-        self.pro
+        self.property = None
+  
