@@ -10,3 +10,5 @@ class Word:
         self.property = None
         self.property = None
         self.property = None
+
+    def method1
