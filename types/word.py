@@ -13,4 +13,5 @@ class Word:
 
     def method1(self):
 
-     
+        return
+ 
