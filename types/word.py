@@ -16,3 +16,5 @@ class Word:
         return
     
     def method2(self):
+
+        return
