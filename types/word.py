@@ -19,4 +19,6 @@ class Word:
 
         return
 
-    def metho
+    def method3(self):
+
+  
