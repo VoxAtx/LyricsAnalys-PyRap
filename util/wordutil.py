@@ -37,3 +37,18 @@ class WordUtil:
                         'A$AP Rocky', 'A$AP Ferg', 'Dumbfoundead', 'Tory Lanez',
                         'Waka Flocka Flame', 'Nas', 'A Tribe Called Quest', 'Vic Mensa',
                         '$UICIDEBOY$', 'Denzel Curry', 'Maxo Kream', 'Isaiah Rashad',
+                        'Mike Stud', 'Mac Miller', 'Yonas', 'Childish Gambino', 'Rich Chigga',
+                        'Three 6 Mafia', 'Azizi Gibson', 'RiFF RAFF', 'Lil Dicky',
+                        'Lil Wayne', 'Tyga', 'Gucci Mane', 'Rick Ross', 'Asher Roth',
+                        'Travis Scott', 'Migos', 'Rihanna', 'Bryson Tiller', '21 Savage',
+                        'Rae Sremmurd', 'French Montana', 'Miley Cyrus', 'XXXTENTACION',
+                        'Lil Pump', 'Ski Mask the Slump God', 'Xavier Wulf', 'SmokePurpp',
+                        'A Boogie Wit Da Hoodie', 'Playboi Carti', 'Ugly God', 'Wiz Khalifa',
+                        'Justin Bieber', 'Beyoncé', 'Nicki Minaj', 'Meek Mill']
+
+    def definition(self, word):
+        '''
+        Function to get the definition of a word
+
+        Parameters
+        -------
