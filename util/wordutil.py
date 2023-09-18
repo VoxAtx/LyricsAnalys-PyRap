@@ -19,3 +19,13 @@ class WordUtil:
     def __init__(self):
         '''
         Class to interface with all external writing tools
+
+        Lookup:
+            - Definitions: definition(word) -> return definition
+            - Synonyms: synonym(word) -> return synonym
+            - Antonyms: antonym(word) -> return antonym
+            - Lyrics: get_lyrics(artist) -> self.artist_lyrics
+        '''
+        self.pos_dict = {}
+        self.lyrics = lyrics()
+        self.get_artist = self.lyrics.convert_artist
