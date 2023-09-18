@@ -29,3 +29,11 @@ class WordUtil:
         self.pos_dict = {}
         self.lyrics = lyrics()
         self.get_artist = self.lyrics.convert_artist
+        self.artists = ['Kendrick Lamar', 'Drake', 'Chance The Rapper', 'J. Cole',
+                        'Logic', 'Future', 'Chief Keef', 'Eminem', 'Kanye West',
+                        'JAY-Z', 'Big Sean', 'Lil Uzi Vert', 'Tyler, The Creator',
+                        'Earl Sweatshirt', '2 Chainz', 'G-Eazy', 'ScHoolboy Q',
+                        'Young Thug', 'Joey Bada$$', 'PnB Rock', 'Flatbush Zombies',
+                        'A$AP Rocky', 'A$AP Ferg', 'Dumbfoundead', 'Tory Lanez',
+                        'Waka Flocka Flame', 'Nas', 'A Tribe Called Quest', 'Vic Mensa',
+                        '$UICIDEBOY$', 'Denzel Curry', 'Maxo Kream', 'Isaiah Rashad',
