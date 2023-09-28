@@ -70,3 +70,22 @@ class WordUtil:
         Function to get synonym word given a word
 
         Parameters
+        -------
+        word: str
+        startswith: str
+        '''
+        dictionary = PyDictionary()
+
+        synonyms = dictionary.synonym(word)
+
+        if startswith:
+            synonyms = [x for x in synonyms if x.startswith(startswith)]
+
+        return synonyms
+
+    def antonym(self, word, startswith=''):
+        '''
+        Function to get antonyms word given a word
+
+        Parameters
+        -------
