@@ -52,3 +52,21 @@ class WordUtil:
 
         Parameters
         -------
+        word: str
+        '''
+
+        dictionary = PyDictionary()
+
+        definition = dictionary.meaning(word)
+
+        if definition:
+            for k, v in definition.items():
+                definition[k] = ''.join(v)
+
+        return definition
+
+    def synonym(self, word, startswith=''):
+        '''
+        Function to get synonym word given a word
+
+        Parameters
