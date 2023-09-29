@@ -114,3 +114,26 @@ class WordUtil:
         rhymes = pronouncing.rhymes(word)
 
         if rhymes:
+            if startswith:
+                rhymes = [x for x in rhymes if x.startswith(startswith)]
+
+        return rhymes
+
+    def get_rhyme(self, word, startswith=''):
+        '''
+        Function to get rhyming word from RhymeZone
+        given a word
+
+        Parameters
+        -------
+        word: str
+        startswith: str
+
+        Returns
+        -------
+        words: list
+            - List of rhyming words
+
+        TODO sort by syllable count, need to scrape page for syllable title
+        '''
+        url = 'https://www.rhymezone.com/r/rhyme.cgi?Word=%s&typeofrhyme=perfect' % word
