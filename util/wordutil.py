@@ -100,3 +100,17 @@ class WordUtil:
             antonyms = [x for x in antonyms if x.startswith(startswith)]
 
         return antonyms
+
+    def pronouncing_rhyme(self, word, startswith=''):
+        '''
+        Function to get rhyming word from
+        Pronouncing package given a word
+
+        Parameters
+        -------
+        word: str
+        startswith: str
+        '''
+        rhymes = pronouncing.rhymes(word)
+
+        if rhymes:
