@@ -89,3 +89,14 @@ class WordUtil:
 
         Parameters
         -------
+        word: str
+        startswith: str
+        '''
+        dictionary = PyDictionary()
+
+        antonyms = dictionary.antonym(word)
+
+        if startswith:
+            antonyms = [x for x in antonyms if x.startswith(startswith)]
+
+        return antonyms
