@@ -137,3 +137,15 @@ class WordUtil:
         TODO sort by syllable count, need to scrape page for syllable title
         '''
         url = 'https://www.rhymezone.com/r/rhyme.cgi?Word=%s&typeofrhyme=perfect' % word
+
+        page = req.get(url)
+        soup = BS(page.text, "html.parser")
+
+        tags = soup.find_all('a')
+        words = []
+
+        for t in tags:
+            if t.parent.name == 'b' and 'class' in t.attrs.keys():
+                text = t.text
+                text = re.sub(r'[^\x00-\x7F]+', ' ', text)
+                words.append(text)
