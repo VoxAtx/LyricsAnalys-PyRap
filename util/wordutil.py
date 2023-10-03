@@ -174,3 +174,13 @@ class WordUtil:
 
         words = self.rap_dict[pos]
         words = [x for x in words if x.lower().startswith(startswith)]
+
+        return words
+
+    def load_rap_pos(self):
+
+        files = ['../lyrics/' + x for x in os.listdir('../lyrics/')]
+        words = []
+
+        for f in files:
+            with open(f, 'rb') as rapdict:
