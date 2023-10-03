@@ -162,3 +162,15 @@ class WordUtil:
         Function to get a word from rap dict
 
         Parameters
+        -------
+        startswith: str
+            - Letter or group of letters to filter words by
+        pos: str
+            - Part of speech to get, TODO remap NLTK pos to regular
+        '''
+
+        if not self.rap_dict:
+            self.load_rap_words()
+
+        words = self.rap_dict[pos]
+        words = [x for x in words if x.lower().startswith(startswith)]
