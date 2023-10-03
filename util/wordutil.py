@@ -149,3 +149,16 @@ class WordUtil:
                 text = t.text
                 text = re.sub(r'[^\x00-\x7F]+', ' ', text)
                 words.append(text)
+
+        if startswith:
+            words = [x for x in words if x.lower().startswith(startswith)]
+
+        words = list(sorted(words))
+
+        return words
+
+    def get_rap_words(self, startswith='', pos='',):
+        '''
+        Function to get a word from rap dict
+
+        Parameters
