@@ -184,3 +184,19 @@ class WordUtil:
 
         for f in files:
             with open(f, 'rb') as rapdict:
+                data = pickle.load(rapdict)
+
+            for song, lyric in data.items():
+                w = lyric.replace('\n', ' ').split()
+                words.extend(w)
+                words = list(set(words))
+
+        rap_pos = {}
+
+        for w in words:
+            if self.lyrics.check_pos(w):
+                pos = self.lyrics.get_pos(w)
+                if pos not in rap_pos.keys():
+                    rap_pos[pos] = [w]
+                else:
+                    rap_pos[pos].append(w)
