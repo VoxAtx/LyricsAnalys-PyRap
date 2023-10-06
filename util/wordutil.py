@@ -216,3 +216,23 @@ class WordUtil:
         song: str
             - Can specify song title to get only
         '''
+        if song:
+            lyrics = self.get_artist(artist)
+            lyrics = lyrics[song]
+        else:
+            lyrics = self.get_artist(artist)
+
+        self.artist_lyrics = lyrics
+
+        return
+
+    def get_pos_words(self, pos):
+
+        pos_map = {
+            'noun': wn.NOUN,
+            'verb': wn.VERB,
+            'adj': wn.ADJ,
+            'adv': wn.ADV
+        }
+        words = []
+        wn_pos = pos_map[pos]
