@@ -200,3 +200,19 @@ class WordUtil:
                     rap_pos[pos] = [w]
                 else:
                     rap_pos[pos].append(w)
+
+        self.rap_pos = rap_pos
+
+        return
+
+    def get_lyrics(self, artist, song=''):
+        '''
+        Get an artist's songs and lyrics
+
+        Parameters
+        -------
+        artist: str
+            - Artist name to get, one of `self.artists`
+        song: str
+            - Can specify song title to get only
+        '''
