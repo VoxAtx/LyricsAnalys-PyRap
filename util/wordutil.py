@@ -236,3 +236,12 @@ class WordUtil:
         }
         words = []
         wn_pos = pos_map[pos]
+
+        synsets = [x for x in wn.all_synsets(wn_pos)]
+
+        for synset in synsets:
+            words.append(synset.lemmas()[0].name())
+
+        self.pos_dict[pos] = list(sorted(set(words)))
+
+        return
